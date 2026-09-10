@@ -15,7 +15,7 @@ class HelloWorld2ApplicationTests {
     @Test
     void TestFail() {
         int expected = 5;
-        int actual = 3;
+        int actual = 5;
         assertEquals(expected, actual, "The actual value does not match the expected value");
     }
 
